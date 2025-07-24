@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Courgette";
+  src: url("/fonts/Courgette-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+.logo {
+  font-family: "Courgette";
+  font-weight: 700;
+}
+
+.navbar-icon-area > span {
+  padding: 8px;
+  background-color: rgba(220, 220, 220, 0.5);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-icon-area > span:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.navbar-icons-area .shopping-cart {
+  position: relative;
+}
+
+.menubar-position {
+  position: absolute;
+  right: 12px;
+  top: 140px;
+  height: calc(100vh - (16px + 78px));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.75rem;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
