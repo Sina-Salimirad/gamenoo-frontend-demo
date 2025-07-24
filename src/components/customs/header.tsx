@@ -15,15 +15,14 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full top-0 z-10 flex justify-between px-4 gap-4 transition-colors duration-300 ${
+      className={`fixed w-full top-0 z-10 flex justify-between items-center px-4 gap-4 transition-colors duration-300 ${
         isOnTop ? "bg-white/20" : "bg-white"
       }`}
     >
-      
-        <img src="/images/logo (2).png" alt="" className="h-24" />
-        <img src="/images/logo.png" alt="" className="h-28" />
-        <img src="/images/logo.png" alt="" className="h-32" />
-        <img src="/images/logo.png" alt="" className="h-36" />
+      <img src="/images/logo (2).png" alt="" className="h-24" />
+      <img src="/images/logo.png" alt="" className="h-28" />
+      <img src="/images/logo.png" alt="" className="h-32" />
+      <img src="/images/logo.png" alt="" className="h-36" />
       {/* <p className="logo text-3xl flex items-center">Gamenoo</p> */}
 
       <div className="flex flex-row-reverse items-center gap-4">
