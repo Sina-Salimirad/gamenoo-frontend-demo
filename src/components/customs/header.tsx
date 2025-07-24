@@ -20,8 +20,10 @@ export default function Header() {
       }`}
     >
       
-        <img src="/images/logo (2).png" alt="" />
-
+        <img src="/images/logo (2).png" alt="" className="h-24" />
+        <img src="/images/logo.png" alt="" className="h-28" />
+        <img src="/images/logo.png" alt="" className="h-32" />
+        <img src="/images/logo.png" alt="" className="h-36" />
       {/* <p className="logo text-3xl flex items-center">Gamenoo</p> */}
 
       <div className="flex flex-row-reverse items-center gap-4">
